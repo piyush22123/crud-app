@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gilroy';
+}
+.add_btn{
+  text-align: right;
+}
+.contianer{
+  overflow: auto;
+}
+.nav-items Link{
+  outline: none;
+  color: black;
+}
+.detail_card{
+  display: flex;
+  gap: 40px;
+  position: relative;
+}
+.rightside{
+  /* background-color: red; */
+  width: 340px;
+}
+.leftside img{
+  border: 1.4px solid;
+  border-radius: 50%;
+}
+.leftside h3{
+  font-size: 21px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+.leftside h3 span{
+  font-weight: 400;
+}
+.leftside p{
+  font-size: 18px;
+  font-weight: 600;
+}
+.leftside p span{
+  font-weight: 400;
+}
+.rightside p{
+  font-size: 18px;
+  font-weight: 600;
+}
+.rightside p span{
+  font-weight: 400;
+}
+.add_btn_1{
+  display: none;
+}
+.add_btn_2{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 15px;
+}
+
+td button{
+  color: white;
+}
+
+
+
+
+ /* add button */
+.addbutton{
+  color: white;
+  text-decoration: none;
+}
+ /* navbar  */
+.nav-item a{
+  text-decoration: none;
+}
+@media (max-width: 600px) {
+  .detail_card{
+    display: flex;
+    flex-direction: column;
+  }
+  .add_btn_2{
+    display: none;
+  }
+  .add_btn_1{
+    display: block;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+  }
+  .detail_card{
+    gap: 0px;
+  }
+  
+}
